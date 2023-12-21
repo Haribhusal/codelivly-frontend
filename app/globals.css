@@ -1,0 +1,65 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+ --primary: #842BFF;
+ --secondary:#111637; 
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+  }
+}
+
+body {
+  color: rgb(var(--foreground-rgb));
+  background-color: #080A1A;
+
+}
+
+.btn{
+
+  @apply bg-[--primary] px-5 py-3 rounded-md  bg-gradient-to-r from-[#6666FF] to-[#C701F9] hover:bg-gradient-to-l transition-all duration-300
+}
+.btn-bordered{
+  @apply  px-5 py-3   rounded-md  bg-gradient-to-r from-pink-500 via-red-500 to-yellow-500 transition-all duration-300
+
+}
+.title{
+  @apply  text-7xl font-bold  text-transparent  bg-clip-text bg-gradient-to-r from-[#6666FF] to-[#C701F9]
+}
+.subtitle{
+  @apply text-5xl font-bold;
+}
+.textgradient{
+  @apply text-transparent  bg-clip-text bg-gradient-to-r from-[#6666FF] to-[#C701F9]
+
+}
+.box{
+  @apply rounded-md p-10 bg-[--secondary] hover:border-[1px] border-[1px] border-transparent hover:border-[--primary] transition-all duration-200
+}
+
+.border-gradient-hover {
+  border-width: 2px; /* Define your border width */
+  border-style: solid; /* Use solid for the border style */
+  border-image: 
+    linear-gradient(to right, red, yellow) 1; /* Gradient colors */
+  background-clip: padding-box; /* This ensures the gradient only applies to the border */
+  transition: all 0.3s ease; /* Smooth transition effect */
+}
+
+/* Reset the border to none when not hovered */
+.border-gradient-hover:hover {
+  border-width: 2px; /* Keep the border width consistent */
+  border-image: 
+    linear-gradient(to right, red, yellow) 1; /* Gradient colors */
+}
+
+.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
