@@ -41,7 +41,7 @@ const Header = () => {
           <Link href={"/home"}>Pricing</Link>
           <Link href={"/home"}>News</Link>
           <Link href={"/home"}>About</Link>
-          <Link href={"/home"}>FAQ's</Link>
+          <Link href={"/home"}>FAQ&apos;s</Link>
         </nav>
         <div className="buttons flex gap-5 ">
           <button>Login</button>
