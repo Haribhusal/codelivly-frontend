@@ -31,7 +31,7 @@ const CTA = () => {
             >
               <input
                 type="text"
-                className="px-5 py-5 rounded-md text-slate-500 text-centre md:text-left min-w-full md:min-w-[400px] "
+                className="px-5 bg-purple-950 py-5 ring-0 focus:ring-0 border-none focus:border-0 shadow-none focus:shadow-none rounded-md text-slate-300 text-centre md:text-left min-w-full md:min-w-[400px] "
                 placeholder="Enter your email"
               />
               <button className="btn flex gap-3 items-center justify-center text-centre md:text-left">

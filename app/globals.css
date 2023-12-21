@@ -42,24 +42,3 @@ body {
 .box{
   @apply rounded-md p-10 bg-[--secondary] hover:border-[1px] border-[1px] border-transparent hover:border-[--primary] transition-all duration-200
 }
-
-.border-gradient-hover {
-  border-width: 2px; /* Define your border width */
-  border-style: solid; /* Use solid for the border style */
-  border-image: 
-    linear-gradient(to right, red, yellow) 1; /* Gradient colors */
-  background-clip: padding-box; /* This ensures the gradient only applies to the border */
-  transition: all 0.3s ease; /* Smooth transition effect */
-}
-
-/* Reset the border to none when not hovered */
-.border-gradient-hover:hover {
-  border-width: 2px; /* Keep the border width consistent */
-  border-image: 
-    linear-gradient(to right, red, yellow) 1; /* Gradient colors */
-}
-
-.visible {
-  opacity: 1;
-  transform: translateY(0);
-}

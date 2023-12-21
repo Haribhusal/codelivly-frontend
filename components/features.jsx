@@ -49,12 +49,12 @@ const Features = () => {
             </div>
           </div>
 
-          <div className="buttons flex space-x-5">
-            <button className="btn flex gap-3 items-center">
+          <div className="buttons flex space-x-5 flex-col md:flex-row gap-3 items-stretch">
+            <button className="btn flex gap-3 items-center justify-center md:justify-start">
               Start developing your career
               <BsArrowRight className="text-white" />
             </button>
-            <div className=" cursor-pointer inline-block bg-gradient-to-r from-[#6666FF] to-[#C701F9] p-[1px] rounded-md">
+            <div className=" cursor-pointer m-0  md:inline-block bg-gradient-to-r from-[#6666FF] to-[#C701F9] p-[1px] rounded-md">
               <div className="flex px-5 py-3 h-full w-full items-center justify-center rounded-md bg-[#080A1A] back">
                 <h1 className="text-transparent  bg-clip-text flex items-center gap-3 bg-gradient-to-r from-[#6666FF] to-[#C701F9]">
                   <BsFillQuestionSquareFill className="text-white" />

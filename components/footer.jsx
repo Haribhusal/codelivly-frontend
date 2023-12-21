@@ -13,16 +13,21 @@ import {
 
 const Footer = () => {
   return (
-    <footer className="py-10 z-50 bg-blue-900/5  backdrop-blur-lg p-5 sm:px-0 sm:py-10">
+    <footer className="p-5 md:py-10 md:pb-0 z-50 bg-blue-900/5  backdrop-blur-lg">
       <div className="wrapper wrapper items-start justify-between max-w-screen-2xl mx-auto grid grid-cols-2 sm:grid-cols-4 gap-5">
-        <div className="brand">
+        <div className="brand flex items-center gap-3">
           <Image
             src={"/codelivly.svg"}
             width={50}
             height={50}
             alt="logo of codelivly"
           />
-          <h2 className="text-2xl my-3">Codelivly</h2>
+          <div className="">
+            <h1 className="text-xl md:text-3xl">Codelivly</h1>
+            <p className="text-sm text-slate-500">
+              Guarding the Digital Frontier
+            </p>
+          </div>
         </div>
         <div className="resources">
           <strong className="uppercase text-slate-500">Resources</strong>
@@ -54,7 +59,7 @@ const Footer = () => {
           </nav>
         </div>
       </div>
-      <div className="wrapper border-t-[1px] pt-5 border-slate-700 border-dashed mt-5 flex gap-5 flex-col md:flex-row items-center justify-between max-w-screen-2xl mx-auto">
+      <div className="wrapper border-t-[1px] py-5 border-slate-800 border-dashed mt-5 flex gap-5 flex-col md:flex-row items-center justify-between max-w-screen-2xl mx-auto">
         <div className="logo">&copy; Codelivly, All rights reserved</div>
 
         <div className="buttons flex gap-5 text-2xl ">
