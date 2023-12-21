@@ -6,7 +6,7 @@ import { FaHeart } from "react-icons/fa";
 
 const FeaturedModules = () => {
   return (
-    <section className="block my-10 py-10">
+    <section className="block my-10 py-10 px-3 md:px-0">
       <div className=" wrapper flex items-center  justify-center max-w-screen-2xl mx-auto">
         <div className="text text-center">
           <h3 className="subtitle py-5">Featured Modules</h3>

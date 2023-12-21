@@ -24,18 +24,18 @@ const Header = () => {
   }, [prevScrollPos]);
 
   return (
-    <header className="sticky top-0 z-50 bg-blue-900/5  backdrop-blur-lg py-5">
+    <header className="sticky top-0 z-50 bg-blue-900/5  backdrop-blur-lg p-5">
       <div className="wrapper flex items-center justify-between max-w-screen-2xl mx-auto">
         <div className="logo flex gap-3 items-center">
           <Image src="/codelivly.svg" width={50} height={50} alt="logo" />
           <div className="">
-            <h1 className="text-3xl">Codelivly</h1>
+            <h1 className="text-xl md:text-3xl">Codelivly</h1>
             <p className="text-sm text-slate-500">
               Guarding the Digital Frontier
             </p>
           </div>
         </div>
-        <nav className="space-x-5">
+        <nav className="space-x-5 hidden md:flex">
           <Link href={"/home"}>Paths</Link>
           <Link href={"/home"}>Modules</Link>
           <Link href={"/home"}>Pricing</Link>

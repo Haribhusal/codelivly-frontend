@@ -16,7 +16,7 @@ const WhyCodelivly = () => {
             officiis dignissimos eos enim! Vitae facere odit porro repudiandae
             eos pariatur.
           </div>
-          <div className="WhyCodelivly grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-5 my-10">
+          <div className="WhyCodelivly grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-5 px-5 md:px-0 my-10">
             <div className="items ">
               <div className="item bg-gradient-to-b from-[--secondary] to-transparent  p-10 rounded-md text-left flex flex-col items-start gap-5">
                 <div className="icon h-12 w-12 bg-gradient-to-b from-violet-600 to-blue-500 flex justify-center items-center rounded-md bg-[--primary]">

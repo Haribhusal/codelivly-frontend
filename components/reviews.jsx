@@ -13,7 +13,7 @@ const Reviews = () => {
         alt="bg"
       />
       <div className="absolute h-1/2 w-3/4 left-1/2 -translate-x-1/2 rounded-2xl bg-gradient-to-b from-[--secondary] to-transparent top-0 "></div>
-      <div className=" wrapper text-center z-20 flex items-center justify-between max-w-screen-2xl mx-auto relative">
+      <div className=" wrapper text-center z-20 flex items-center justify-between max-w-screen-2xl mx-auto relative px-5 md:px-0">
         <div className="text">
           <h3 className="subtitle py-5">What our readers are saying</h3>
           <div className="text w-1/2 mx-auto my-5 text-slate-400">

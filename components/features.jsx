@@ -7,7 +7,7 @@ import { BsFillQuestionSquareFill } from "react-icons/bs";
 
 const Features = () => {
   return (
-    <section className="block my-10 py-10 relative overflow-hidden">
+    <section className="block my-10 py-10 px-3 md:px-0 relative overflow-hidden">
       <Image
         src={"./bg.svg"}
         className="absolute opacity-50 inset-0  h-full z-0 w-screen"
@@ -15,7 +15,7 @@ const Features = () => {
         width={1000}
         alt="image details"
       />
-      <div className=" wrapper relative z-10 flex items-center justify-between max-w-screen-2xl mx-auto">
+      <div className=" wrapper relative z-10 flex flex-col md:flex-row items-center justify-between max-w-screen-2xl mx-auto">
         <div className="text">
           <h3 className="subtitle py-5">
             Land your first job <br /> with our learning paths
@@ -64,7 +64,7 @@ const Features = () => {
             </div>
           </div>
         </div>
-        <div className="image">
+        <div className="image p-5 md:p-0 my-10 md:my-0">
           <Image
             src={"/career.svg"}
             height={700}

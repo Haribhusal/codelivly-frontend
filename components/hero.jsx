@@ -4,7 +4,7 @@ import { BsArrowRight } from "react-icons/bs";
 
 const Hero = () => {
   return (
-    <section className="h-screen relative">
+    <section className="h-auto md:h-screen relative p-5 sm:p-0">
       <Image
         src={"./bg.svg"}
         className="absolute opacity-50 inset-0 w-full h-full z-0"
@@ -12,13 +12,13 @@ const Hero = () => {
         width={1000}
         alt="image"
       />
-      <div className="wrapper z-10 absolute top-1/2 -translate-y-1/2 left-1/2 -translate-x-1/2">
+      <div className="wrapper z-10 relative md:absolute  md:top-1/2 md:-translate-y-1/2 md:left-1/2 md:-translate-x-1/2">
         <div className="text text-center">
           <h3 className="title py-5">
             Your cybersecurity <br />
             journey starts here
           </h3>
-          <p className="text my-10 w-1/2 mx-auto text-slate-400">
+          <p className="text my-10 w-full md:w-1/2 mx-auto text-slate-400">
             Kick off your cybersecurity adventure with us! Dive deep, stay
             curious, and let&apos;s navigate the digital waves together. Ready
             to level up? Start here.

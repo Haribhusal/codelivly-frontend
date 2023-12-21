@@ -7,44 +7,50 @@ import { SiHackaday } from "react-icons/si";
 
 const Categories = () => {
   return (
-    <section className="block">
+    <section className="block py-10 md:p-0">
       <div className=" wrapper flex items-center  justify-center max-w-screen-2xl mx-auto">
         <div className="text text-center">
-          <h3 className="subtitle py-5">Choose what to learn</h3>
+          <h3 className="subtitle py-3 md:py-5">Choose what to learn</h3>
 
-          <div className="items my-10 grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 gap-5">
+          <div className="items p-3 md:p-0 my-3 md:my-10 grid grid-cols-2 place-self-center items-center justify-center place-content-center sm:grid-cols-3 lg:grid-cols-5 gap-1 md:gap-5">
             <Link href={"/category/courseid"}>
-              <div className=" bg-[--secondary]  p-10 rounded-md flex items-center flex-col">
+              <div className=" bg-[--secondary]  p-3 md:p-10 rounded-md flex items-center flex-col">
                 <GiArtificialIntelligence className="text-7xl" />
-                <h3 className="mt-5 textgradient text-xl ">
+                <h3 className="mt-5 textgradient text-base md:text-xl ">
                   Artificial Intelligence
                 </h3>
               </div>
             </Link>
             <Link href={"/category/courseid"}>
-              <div className=" bg-[--secondary]  p-10 rounded-md flex items-center flex-col">
+              <div className=" bg-[--secondary]  p-3 md:p-10 rounded-md flex items-center flex-col">
                 <SiCyberdefenders className="text-7xl" />
-                <h3 className="mt-5 textgradient text-xl ">Cybersecurity</h3>
+                <h3 className="mt-5 textgradient text-base md:text-xl ">
+                  Cybersecurity
+                </h3>
               </div>
             </Link>
             <Link href={"/category/courseid"}>
-              <div className=" bg-[--secondary] p-10 rounded-md flex items-center flex-col">
+              <div className=" bg-[--secondary]  p-3 md:p-10 rounded-md flex items-center flex-col">
                 <SiHackaday className="text-7xl" />
-                <h3 className="mt-5 textgradient text-xl ">Hacking</h3>
+                <h3 className="mt-5 textgradient text-base md:text-xl ">
+                  Hacking
+                </h3>
               </div>
             </Link>
             <Link href={"/category/courseid"}>
-              <div className=" bg-[--secondary] p-10 rounded-md flex items-center flex-col">
+              <div className=" bg-[--secondary]  p-3 md:p-10 rounded-md flex items-center flex-col">
                 <GiArtificialIntelligence className="text-7xl" />
-                <h3 className="mt-5 textgradient text-xl ">
+                <h3 className="mt-5 textgradient text-base md:text-xl ">
                   Artificial Intelligence
                 </h3>
               </div>
             </Link>
             <Link href={"/category/courseid"}>
-              <div className=" bg-[--secondary] p-10 rounded-md flex items-center flex-col">
+              <div className=" bg-[--secondary]  p-3 md:p-10 rounded-md flex items-center flex-col">
                 <SiCyberdefenders className="text-7xl" />
-                <h3 className="mt-5 textgradient text-xl ">Cybersecurity</h3>
+                <h3 className="mt-5 textgradient text-base md:text-xl ">
+                  Cybersecurity
+                </h3>
               </div>
             </Link>
           </div>
