@@ -1,4 +1,3 @@
-import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 import { BsArrowRight } from "react-icons/bs";
@@ -19,7 +18,7 @@ const Footer = () => {
         <nav className="space-x-5">
           <Link href={"/home"}>Terms and Conditions</Link>
           <Link href={"/home"}>Privacy Policy</Link>
-          <Link href={"/home"}>FAQ&apos;s</Link>
+          <Link href={"/home"}>FAQ&aposs</Link>
         </nav>
         <div className="buttons flex gap-5 text-2xl ">
           <Link href={"/"}>

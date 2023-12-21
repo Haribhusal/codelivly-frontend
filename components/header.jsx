@@ -27,7 +27,7 @@ const Header = () => {
     <header className="sticky top-0 z-50 bg-blue-900/5  backdrop-blur-lg py-5">
       <div className="wrapper flex items-center justify-between max-w-screen-2xl mx-auto">
         <div className="logo flex gap-3 items-center">
-          <Image src="/codelivly.svg" width={50} height={50} />
+          <Image src="/codelivly.svg" width={50} height={50} alt="logo" />
           <div className="">
             <h1 className="text-3xl">Codelivly</h1>
             <p className="text-sm text-slate-500">

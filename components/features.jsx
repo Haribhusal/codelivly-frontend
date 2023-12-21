@@ -13,6 +13,7 @@ const Features = () => {
         className="absolute opacity-50 inset-0  h-full z-0 w-screen"
         height={100}
         width={1000}
+        alt="image details"
       />
       <div className=" wrapper relative z-10 flex items-center justify-between max-w-screen-2xl mx-auto">
         <div className="text">

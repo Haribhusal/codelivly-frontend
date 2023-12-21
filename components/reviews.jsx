@@ -10,6 +10,7 @@ const Reviews = () => {
         className="absolute opacity-50 inset-0 w-full h-full z-0"
         height={100}
         width={1000}
+        alt="bg"
       />
       <div className="absolute h-1/2 w-3/4 left-1/2 -translate-x-1/2 rounded-2xl bg-gradient-to-b from-[--secondary] to-transparent top-0 "></div>
       <div className=" wrapper text-center z-20 flex items-center justify-between max-w-screen-2xl mx-auto relative">

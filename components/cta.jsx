@@ -10,6 +10,7 @@ const CTA = () => {
         src={"./bg.svg"}
         className="absolute opacity-50 inset-0 w-full h-full z-0"
         height={100}
+        alt="image details"
         width={1000}
       />
       <div className="absolute h-1/2 w-3/4 left-1/2 -translate-x-1/2 rounded-2xl bg-gradient-to-b from-[--secondary] to-transparent top-0 "></div>

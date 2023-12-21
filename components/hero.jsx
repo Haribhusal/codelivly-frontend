@@ -10,6 +10,7 @@ const Hero = () => {
         className="absolute opacity-50 inset-0 w-full h-full z-0"
         height={100}
         width={1000}
+        alt="image"
       />
       <div className="wrapper z-10 absolute top-1/2 -translate-y-1/2 left-1/2 -translate-x-1/2">
         <div className="text text-center">

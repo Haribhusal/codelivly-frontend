@@ -22,6 +22,7 @@ const FeaturedModules = () => {
                 src="http://picsum.photos/id/14/500/300"
                 width={500}
                 height={200}
+                alt="image"
                 className="w-full rounded-md h-72 object-cover"
               />
               <div className="excerpt text-left p-10 relative">
@@ -57,6 +58,7 @@ const FeaturedModules = () => {
                 src="http://picsum.photos/id/14/500/300"
                 width={500}
                 height={200}
+                alt="image details"
                 className="w-full rounded-md h-72 object-cover"
               />
               <div className="excerpt text-left p-10 relative">
@@ -91,6 +93,7 @@ const FeaturedModules = () => {
                 src="http://picsum.photos/id/14/500/300"
                 width={500}
                 height={200}
+                alt="Image details"
                 className="w-full rounded-md h-72 object-cover"
               />
               <div className="excerpt text-left p-10 relative">

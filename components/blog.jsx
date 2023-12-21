@@ -17,6 +17,7 @@ const Blog = () => {
                 src="http://picsum.photos/id/14/500/300"
                 width={500}
                 height={200}
+                alt="image alt"
                 className="w-full rounded-md h-72 object-cover"
               />
               <div className="excerpt text-left p-10 relative">
@@ -42,6 +43,7 @@ const Blog = () => {
               <Image
                 src="http://picsum.photos/id/14/500/300"
                 width={500}
+                alt="image alt"
                 height={200}
                 className="w-full rounded-md h-72 object-cover"
               />
@@ -69,6 +71,7 @@ const Blog = () => {
                 src="http://picsum.photos/id/14/500/300"
                 width={500}
                 height={200}
+                alt="image alt"
                 className="w-full rounded-md h-72 object-cover"
               />
               <div className="excerpt text-left p-10 relative">
