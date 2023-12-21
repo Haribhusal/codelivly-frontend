@@ -20,8 +20,8 @@ const Hero = () => {
           </h3>
           <p className="text my-10 w-1/2 mx-auto text-slate-400">
             Kick off your cybersecurity adventure with us! Dive deep, stay
-            curious, and let's navigate the digital waves together. Ready to
-            level up? Start here.
+            curious, and let&apos;s navigate the digital waves together. Ready
+            to level up? Start here.
           </p>
           <div className="buttons space-x-5 flex justify-center">
             <button className="btn flex gap-3 items-center">

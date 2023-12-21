@@ -18,7 +18,7 @@ const Reviews = () => {
           <h3 className="subtitle py-5">What our readers are saying</h3>
           <div className="text w-1/2 mx-auto my-5 text-slate-400">
             Learners from all around the world are learning cybersecurity and
-            getting their career step ahead. Here's the reviews
+            getting their career step ahead. Here&apos;s the reviews
           </div>
           <div className="Reviews grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-5 my-10">
             <div className="items ">
@@ -34,9 +34,9 @@ const Reviews = () => {
                   from basic principles to advanced techniques. The instructors
                   are industry professionals who provide real-world examples and
                   scenarios, making the learning experience both practical and
-                  engaging. The platform's user interface is intuitive, and I
-                  appreciated the hands-on labs that allowed me to apply what I
-                  learned. Highly recommended for anyone looking to build a
+                  engaging. The platform&apos;s user interface is intuitive, and
+                  I appreciated the hands-on labs that allowed me to apply what
+                  I learned. Highly recommended for anyone looking to build a
                   solid foundation in cybersecurity!
                 </div>
                 <div className="user">
@@ -56,13 +56,13 @@ const Reviews = () => {
                   I enrolled in the "Ethical Hacking and Penetration Testing"
                   course at codelivly.com to enhance my cybersecurity skills for
                   my job. Overall, the content was informative and up-to-date,
-                  covering a range of topics relevant to today's cybersecurity
-                  landscape. The course materials were well-organized, and the
-                  videos were of high quality. However, I felt that some
-                  sections could have been more interactive, perhaps with live
-                  Q&A sessions or more hands-on exercises. Nonetheless, I found
-                  value in the course, and the certification will undoubtedly
-                  boost my career prospects.
+                  covering a range of topics relevant to today&apos;s
+                  cybersecurity landscape. The course materials were
+                  well-organized, and the videos were of high quality. However,
+                  I felt that some sections could have been more interactive,
+                  perhaps with live Q&A sessions or more hands-on exercises.
+                  Nonetheless, I found value in the course, and the
+                  certification will undoubtedly boost my career prospects.
                 </div>
                 <div className="user">
                   <h3 className=" textgradient my-0 text-2xl ">Raj Patel</h3>
@@ -77,16 +77,17 @@ const Reviews = () => {
                 </div>
 
                 <div className="text text-slate-400 text-sm">
-                  I can't speak highly enough about codelivly.com! I enrolled in
-                  their "Advanced Cybersecurity Techniques" course, and it was a
-                  game-changer for me. The instructors are top-notch, providing
-                  in-depth insights and practical strategies that I immediately
-                  implemented in my organization. What sets codelivly.com apart
-                  is their commitment to student success; they offer continuous
-                  support, networking opportunities, and career guidance. The
-                  course content is regularly updated to reflect the latest
-                  industry trends, ensuring that students remain at the
-                  forefront of cybersecurity knowledge. If you're serious about
+                  I can&apos;t speak highly enough about codelivly.com! I
+                  enrolled in their "Advanced Cybersecurity Techniques" course,
+                  and it was a game-changer for me. The instructors are
+                  top-notch, providing in-depth insights and practical
+                  strategies that I immediately implemented in my organization.
+                  What sets codelivly.com apart is their commitment to student
+                  success; they offer continuous support, networking
+                  opportunities, and career guidance. The course content is
+                  regularly updated to reflect the latest industry trends,
+                  ensuring that students remain at the forefront of
+                  cybersecurity knowledge. If you&apos;re serious about
                   advancing your cybersecurity career, look no further than
                   codelivly.com!
                 </div>
