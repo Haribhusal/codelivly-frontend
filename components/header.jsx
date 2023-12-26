@@ -43,8 +43,10 @@ const Header = () => {
           <Link href={"/home"}>About</Link>
           <Link href={"/home"}>FAQ&apos;s</Link>
         </nav>
-        <div className="buttons flex gap-5 ">
-          <button>Login</button>
+        <div className="buttons flex items-center gap-5 ">
+          <Link href={"/auth/login"}>
+            <button>Login</button>
+          </Link>
           <button className="btn flex gap-3 items-center">
             Start Learning <BsArrowRight />
           </button>
